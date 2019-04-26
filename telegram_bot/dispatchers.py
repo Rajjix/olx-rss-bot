@@ -3,8 +3,7 @@ from telegram.ext import CommandHandler, RegexHandler
 
 from .main import RssBot
 
-#updater - Updater(token="XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
-updater = Updater(token="640415099:AAEieq6Ggerep8RiRVXVKzdlRFxCKfY5fLI")
+updater - Updater(token="XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
 rss_bot = {
     'subscribe'  : RegexHandler('🔔 Subsscribe', RssBot.add_member, pass_user_data=True),
